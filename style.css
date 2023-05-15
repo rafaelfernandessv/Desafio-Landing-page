@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Raleway:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#menu-superior{
+  background-image: url(imagem/Background-superior.svg);
+  color: #FFFFFF;   
+}
+
+#titulo-menu-superior{
+    font-family:'Inter', sans-serif;
+    font-size: 60px;
+    padding-left: 62px;
+    padding-top: 206px;   
+}
+
+#paragrafo-menu-superior{
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    padding-left: 62px;
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+.menu-informativo{
+    margin-top: 96px;
+    margin-right: 64px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-titulo-informativo{
+    font-family:'Inter', sans-serif;
+    font-size: 40px;
+   
+}
+
+.menu-texto-informativo{
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.menu-historial{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-historial-texto{
+    margin-left: 77px;
+    margin-right: 64px;
+    font-family: 'Inter', sans-serif;
+}
+
+#texto-historial{
+    font-size: 40px;
+}
+
+#paragrafo-historial{
+    padding-top: 25px;
+    font-family: 'Raleway', sans-serif;;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.menu-historial-imagem{
+    margin-top: 100px;
+    padding-right: 64px;
+    width: 510px;
+    height: 605px;
+}
+
+#formulario{
+    background-image: url(imagem/background-inferior.svg);
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+}
+
+#titulo-formulario{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    padding-top: 69px;
+}
+
+input{
+    width: 408px;
+    height: 50px;
+    background-color: white;
+    margin: 25px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #C07212;
+    border: 0;
+    border-radius: 10px;
+    width: 285px;
+    height: 75px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(7px);
+    box-shadow: 0px 5px 5px #05103069;
+    transition-duration: 0.5s;
+}
+
+
+
